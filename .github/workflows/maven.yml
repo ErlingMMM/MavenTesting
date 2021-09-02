@@ -2,9 +2,9 @@ name: Byggejobb
 
 on:
   push:
-    branches: [ githubActions ]
+    branches: [ master ]
   pull_request:
-    branches: [ githubActions ]
+    branches: [ master ]
 
 jobs:
   build:
